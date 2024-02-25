@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: "Outfit", sans-serif;
+}
+
+.login {
+    width: 420px;
+    background: #fff;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.login img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 120px;
+}
+
+.login h1 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 35px;
+    color: blueviolet;
+    margin-bottom: 10px;
+}
+
+.login .first {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: chocolate;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #555;
+    font-size: 13px;
+    color: blue;
+    padding: 50px 45px 20px 20px;
+    margin-bottom: 10px;
+}
+
+.forgot {
+    margin-bottom: 30px;
+}
+
+.forgot a {
+    text-decoration: none;
+}
+
+.learn {
+    margin-bottom: 20px;
+}
+
+.learn p a {
+    text-decoration: none;
+    color: blue;
+}
+
+.create {
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+}
+
+.create a {
+    text-decoration: none;
+    color: chartreuse;
+}
+
+.btn {
+    width: 30%;
+    height: 45px;
+    background-color: darkorange;
+    border: black;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+}
